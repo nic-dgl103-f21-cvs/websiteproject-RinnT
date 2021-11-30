@@ -1,9 +1,23 @@
 body {
+    background-image: url(images/BG2.jpg);
+    background-repeat: no-repeat;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	font-family: 'Merriweather', serif;
 }
 
-h1{
+header { 
+    padding: 15px; 
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  header img {
+    margin-right: 20px;
+  }
+  
+  h1{
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
@@ -16,26 +30,42 @@ h1{
 h1 span {
 	font-size: 15px;
 }
-
-.globalNavi {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-.globalNavi li {
-	display: inline-block;
-	margin-right: 40px;
+nav {
+    background-color: #f3f3f4;
+  }
+  nav .wrapper {
+    width: 350px;
+    margin: auto;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  nav li a { 
+	  text-align: center;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #191645;
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	letter-spacing: 1px;
-}
-.globalNavi li:last-child {
-    margin-right: 0;
+  }
+  
+  nav li a:hover { 
+    background-color: #43C6Ac;
+    color: white;
+  }
 
-}
 
 
 .mainImage {
+	padding-top: 50px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -83,7 +113,7 @@ h1 span {
 	height: auto;
 }
 .aboutSection h3 {
-	font-size: 25;
+
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
 	margin: 0%;
@@ -114,10 +144,44 @@ h1 span {
 	padding-top: 15px;
 	width: 90%;
 }
-.instagramBt {
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+  }
+  .footer-h2 {
+    color: black;
+  }
+  .footer hr {
+    border-color: cyan;
+    margin: 40px 0;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .footer-h2 {
+
+    padding: 20px 0 0 10px;
+	color: bisque;
+  }
+  .footer-table {
+    color: rgb(14, 236, 25);
+    text-align: center;
+    margin: auto;
+  }
+  .footer-table tr td {
+    padding: 2% 5%;
+  }
+  .second td {
+    color:rgb(114, 174, 241);
+  }
+  .instagramBt {
 	width: 200px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 43%;
+	margin-left: 43%;
+  padding-top: 15px;
 }
 .instagramBt a {
 	background: #000000;
